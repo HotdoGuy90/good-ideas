@@ -20,7 +20,7 @@ Invented by me, i have made a pretty cool algorithm. It requires a seed, x value
     <title>Green Scale!</title>
 </head>
 <body>
-    <canvas id="algorithnContainer"></canvas>
+    <canvas id="algorithmContainer"></canvas>
     <script src="./main.js"></script>
 </body>
 </html>
