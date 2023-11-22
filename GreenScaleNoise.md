@@ -1,5 +1,7 @@
 # The Green Scale Algothrithm (or Green Scale Noise)
 
+## Description & How to Make
+
 Invented by me, i have made a pretty cool algorithm. It requires a seed, x value (point), and y value (point). the algorithm goes as follows: `seed * x * y * e * π` (*e* being the 2.71 number in math) It is then further calculated to become a number from -1 to 1 (kinda like perlin or simplex noise) you can further use this output into a color value by going `(value + 1) / 2 * 255` and then make it a color value by saying `rgb(value - 23, value + 69, value)` and then set the color (or height) for the x and y points that you used before. An example with html is:
 
 **html:**
@@ -59,3 +61,10 @@ ctx.fillText("Seed: " + seed, 10, canvas.height - 20)
 ```
 
 And you can make things like:
+![first image](https://rawcdn.githack.com/HotdoGuy90/good-ideas/213a16b15862d4f684f81488cbe6ea76f3d6cbfc/images/green-scale-noise.png)
+![second image](https://rawcdn.githack.com/HotdoGuy90/good-ideas/213a16b15862d4f684f81488cbe6ea76f3d6cbfc/images/green-scale-noise-2.png)
+![third image](https://rawcdn.githack.com/HotdoGuy90/good-ideas/213a16b15862d4f684f81488cbe6ea76f3d6cbfc/images/green-scale-noise-3.png)
+
+## World Generation
+
+Yes, this can make generation for things like Minecraft Worlds. (I don't know how to make a mod like that, but im sure someone does.) Depending on how low or high the number is, place a block or pixel with that height.
